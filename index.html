@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aeropuertos de Andalucía</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="icon/favicon.svg">
+
+</head>
+    <body id="top">
+        
+    <header class="header" id="header">
+        <h1>AEROPUERTOS DE ANDALUCÍA</h1>
+        <div class="menu-toggle" id="menu-toggle" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </header>
+
+
+    <nav class="dropdown-menu" id="dropdown-menu">
+            <a href="#top" class="menu-item">HOME</a>
+            <a href="#airport1" class="menu-item">AEROPUERTO 1</a>
+            <a href="#airport2" class="menu-item">AEROPUERTO 2</a>
+            <a href="#airport3" class="menu-item">AEROPUERTO 3</a>
+            <a href="#airport4" class="menu-item">AEROPUERTO 4</a>
+            <a href="#airport5" class="menu-item">AEROPUERTO 5</a>
+            <a href="#airport6" class="menu-item">AEROPUERTO 6</a>
+        </div>
+    </nav>
+
+    <!-- Pantalla Principal -->
+    <section id="intro" class="intro-section">
+        <div class="intro-content">
+            <h1>Aeropuertos de Andalucía</h1>
+            <p>Bienvenidos a la página oficial donde encontrarás toda la información sobre los aeropuertos de Andalucía. Descubre conexiones, servicios y mucho más.</p>
+            <a href="#airport1" id="explore-btn" class="btn">Explorar Aeropuertos</a>
+        </div>
+    </section>
+
+    <main>
+
+        <div id="background-container"></div>
+        
+        <div class="airport-card" id="airport1">
+            <h2>Aeropuerto 1</h2>
+            <p>Información del aeropuerto 1</p>
+        </div>
+    
+        <div class="airport-card" id="airport2">
+            <h2>Aeropuerto 2</h2>
+            <p>Información del aeropuerto 2</p>
+        </div>
+    
+        <div class="airport-card" id="airport3">
+            <h2>Aeropuerto 3</h2>
+            <p>Información del aeropuerto 3</p>
+        </div>
+
+        <div class="airport-card" id="airport4">
+            <h2>Aeropuerto 4</h2>
+            <p>Información del aeropuerto 4</p>
+        </div>
+
+        <div class="airport-card" id="airport5">
+            <h2>Aeropuerto 5</h2>
+            <p>Información del aeropuerto 5</p>
+        </div>
+
+        <div class="airport-card" id="airport6">
+            <h2>Aeropuerto 6</h2>
+            <p>Información del aeropuerto 6</p>
+        </div>
+
+        <!-- Botón para ir al inicio -->
+        <button id="toTopBtn" class="to-top-btn">
+            <img src="icon/arrow.svg" alt="Ir al Top">
+        </button>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
