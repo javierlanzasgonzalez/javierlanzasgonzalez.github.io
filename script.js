@@ -65,7 +65,7 @@ document.querySelectorAll('.airport-card').forEach((card) => {
 
 // Manejo del desplazamiento suave y centrado con compensación del header
 const headerHeight = header.offsetHeight; // Altura del header fijo
-const additionalMargin = 0; // Margen adicional arriba de la tarjeta
+const additionalMargin = 75; // Margen adicional arriba de la tarjeta
 
 // Función para desplazar hacia un objetivo con la misma lógica
 function scrollToTarget(targetId) {
